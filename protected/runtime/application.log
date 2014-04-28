@@ -41588,3 +41588,24 @@ REQUEST_URI=/
 in Z:\home\alex\www\protected\views\site\index.php (11)
 in Z:\home\alex\www\protected\controllers\SiteController.php (12)
 in Z:\home\alex\www\index.php (13)
+2014/04/28 13:51:42 [error] [exception.CException] exception 'CException' with message 'Контроллер ProjectController не может найти представление "admin".' in Z:\home\alex\www\YiiRoot\framework\web\CController.php:878
+Stack trace:
+#0 Z:\home\alex\www\YiiRoot\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#1 Z:\home\alex\www\protected\components\ModuleAdminController.php(86): CController->render('admin', Array)
+#2 Z:\home\alex\www\YiiRoot\framework\web\actions\CInlineAction.php(49): ModuleAdminController->actionAdmin()
+#3 Z:\home\alex\www\YiiRoot\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\home\alex\www\YiiRoot\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 Z:\home\alex\www\YiiRoot\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 Z:\home\alex\www\YiiRoot\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 Z:\home\alex\www\YiiRoot\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 Z:\home\alex\www\YiiRoot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 Z:\home\alex\www\YiiRoot\framework\web\CController.php(291): CFilterChain->run()
+#10 Z:\home\alex\www\YiiRoot\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 Z:\home\alex\www\YiiRoot\framework\web\CWebApplication.php(282): CController->run('admin')
+#12 Z:\home\alex\www\YiiRoot\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/project/a...')
+#13 Z:\home\alex\www\YiiRoot\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 Z:\home\alex\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/admin/project/admin/
+HTTP_REFERER=http://alex/admin/main/page/id/2/
+---

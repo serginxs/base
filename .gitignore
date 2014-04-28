@@ -4,15 +4,16 @@
 # netbeans project files
 nbproject
 
-# zend studio for eclipse project files
-.buildpath
-.project
-.settings
 
 # windows thumbnail cache
 Thumbs.db
 
 # unuse dirs
+/assets
+/protected/runtime
+/images
 /YiiRoot
-
+/css/images
+/css/bootstrap
+/css/admin
 
