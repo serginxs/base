@@ -1,0 +1,133 @@
+.bootnavbar-delimiter {clear: both; padding-top: 60px;}
+.brand {    margin-left: 0 !important;}
+#top .navbar-fixed-top .container {width: 100% !important;}
+.logo {color: #FFF;}
+.tag-form {display: none; background: #d3d3d3; padding: 10px 15px;border-radius:5px; width: 80%;}
+.home-link{margin-top: 7px;}
+.logout-link {margin:12px 10px 0;}
+.grid-view {padding: 0px !important;}
+.admin_img {float: left; margin: 0 20px 20px 0;}
+.min_height {min-height: 240px;}
+.pagination {float: right !important;}
+.left {float: left;}
+.right {float: right;}
+.clear { clear: both;}
+#header
+{
+	margin: 0;
+	padding: 0;
+       /*border-top: 3px solid #C9E0ED;*/
+        background: #D3D3D3;
+}
+
+
+
+
+#footer
+{
+	padding: 10px;
+	margin: 10px 20px;
+	font-size: 0.8em;
+	text-align: center;
+	border-top: 1px solid #C9E0ED;
+}
+
+#logo
+{
+	padding: 10px 20px;
+	font-size: 200%;
+}
+
+
+
+div.form .rememberMe label
+{
+	display: inline;
+}
+
+div.view
+{
+	padding: 10px;
+	margin: 10px 0;
+	border: 1px solid #C9E0ED;
+}
+
+div.breadcrumbs
+{
+	font-size: 0.9em;
+	padding: 5px 20px;
+}
+
+div.breadcrumbs span
+{
+	font-weight: bold;
+}
+
+div.search-form
+{
+	padding: 10px;
+	margin: 10px 0;
+	background: #eee;
+}
+
+
+.noblock {display: inline !important;}
+
+.mybutton,.mybutton_active
+{
+    background-color:#69a8cd;
+    background-image: -moz-linear-gradient(center top , #82b9d7, #4c99c5);
+    border: 1px solid #9AC9FF !important;
+    border-radius: 4px;
+    -moz-box-shadow: 0 1px 1px white inset, 0 3px 3px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 0 1px 1px white inset, 0 3px 3px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 1px 1px white inset, 0 3px 3px rgba(0, 0, 0, 0.6);
+    color: white !important;
+    display: inline-block;  
+    margin-right:5px;
+    padding: 4px 15px 2px;
+    position: relative;
+    text-decoration: none;
+    -moz-text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+    -webkit-text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+}
+.mybutton
+{
+    font: bold 12px "Lucida Grande",Sans-Serif;
+}
+.mybutton_active
+{
+    font: bold 12px "Lucida Grande",Sans-Serif;
+     background: none repeat scroll 0 0 #FA7623;
+     border-bottom: 1px solid white;
+}
+.mybutton:hover
+   {
+       -moz-box-shadow: 0 2px 6px white inset, 0 3px 3px rgba(0, 0, 0, 0.6);
+       -webkit-box-shadow: 0 2px 6px white inset, 0 3px 3px rgba(0, 0, 0, 0.6);
+       box-shadow: 0 2px 6px white inset, 0 3px 3px rgba(0, 0, 0, 0.6);
+       cursor: pointer;
+   }
+.toggle-div
+{
+    display: none;
+    background: #C9E0ED;
+    border-radius:4px;
+    padding: 7px;
+    border: 1px solid #d3d3d3;    
+}
+.row-wraper
+{
+    margin: 25px 0;
+}
+.checkbox {}
+.img-checkbox {margin-right: 30px; border: 1px solid #d3d3d3; float: left; min-height: 200px;display: table-cell; background:#f8f8f8;margin-bottom: 10px; }
+.icon-checkbox {margin-right: 10px; border: 1px solid #d3d3d3; float: left; min-height: 80px; width: 60px; display: table-cell; background:#f8f8f8;margin-bottom: 10px; }
+.baner-wrap li {display: inline-block; margin-right: 50px;}
+.content-wraper {
+    background: none repeat scroll 0 0 #F5F5F5;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 1px 1px 2px;
+    padding: 10px;
+}

@@ -1,0 +1,130 @@
+ /*BreadCrumbs*/
+#content .breadcrumbs{padding: 5px 10px 2px;overflow:hidden;font-size:12px; background: none repeat scroll 0 0 #FAFBF9;margin:0;}
+#content .breadcrumbs .inside{float:left;padding:0 12px 0 0; line-height: 12px; background:transparent; }
+#content .breadcrumbs a{float:left;height:28px;background-position:right center;background-repeat:no-repeat;color:#3F3F3F;background-image:url(images/row-bc.png);}
+#content .breadcrumbs a span{float:left;height:20px;color: #939393;padding:6px 15px 0 10px;}
+#content .breadcrumbs a span:hover{color: #58a9c8;text-decoration:underline;}
+#content .breadcrumbs a span.breadcrumbs-inactive,#content .breadcrumbs a span.breadcrumbs-inactive :hover{color:#7882a7;text-decoration:none;}
+#content .breadcrumbs a:first-child span{padding-left:2px;} .breadcrumbs a.last {background-image: none !important}
+ 
+
+div.form input,
+div.form textarea,
+div.form select
+{
+	margin: 0.2em 0 0.5em 0;
+}
+
+div.form fieldset
+{
+	border: 1px solid #DDD;
+	padding: 10px;
+	margin: 0 0 10px 0;
+    -moz-border-radius:7px;
+}
+
+div.form label
+{
+	font-weight: bold;
+	font-size: 0.9em;
+	display: block;
+}
+
+div.form .row
+{
+	margin: 5px 0;
+}
+
+div.form .hint
+{
+	margin: 0;
+	padding: 0;
+	color: #999;
+}
+
+div.form .note
+{
+	font-style: italic;
+}
+
+div.form span.required
+{
+	color: red;
+}
+
+div.form div.error label:first-child,
+div.form label.error,
+div.form span.error
+{
+	color: #C00;
+}
+
+div.form div.error input,
+div.form div.error textarea,
+div.form div.error select,
+div.form input.error,
+div.form textarea.error,
+div.form select.error
+{
+	background: #FEE;
+	border-color: #C00;
+}
+
+div.form div.success input,
+div.form div.success textarea,
+div.form div.success select,
+div.form input.success,
+div.form textarea.success,
+div.form select.success
+{
+	background: #E6EFC2;
+	border-color: #C6D880;
+}
+
+
+div.form .errorSummary
+{
+	border: 2px solid #C00;
+	padding: 7px 7px 12px 7px;
+	margin: 0 0 20px 0;
+	background: #FEE;
+	font-size: 0.9em;
+}
+
+div.form .errorMessage
+{
+	color: red;
+	font-size: 0.9em;
+}
+
+div.form .errorSummary p
+{
+	margin: 0;
+	padding: 5px;
+}
+
+div.form .errorSummary ul
+{
+	margin: 0;
+	padding: 0 0 0 20px;
+}
+
+div.wide.form label
+{
+	float: left;
+	margin-right: 10px;
+	position: relative;
+	text-align: right;
+	width: 100px;
+}
+
+div.wide.form .row
+{
+	clear: left;
+}
+
+div.wide.form .buttons, div.wide.form .hint, div.wide.form .errorMessage
+{
+	clear: left;
+	padding-left: 110px;
+}
