@@ -1,6 +1,6 @@
 <?php $this->pageTitle='Просомтр проекта'; ?>
 
-<h2>Просомтр проекта: ID <?php echo $model->id; ?></h2>
+<h2>Просомтр проекта: <?php echo $model->title; ?></h2>
 
 <?php $this->widget('bootstrap.widgets.TbMenu', array(
     'type'=>'pills', 
@@ -17,8 +17,9 @@
     <h3><?php echo CHtml::encode($model->title); ?></h3>   
       
     <?php
-    //echo CHtml::image($model->ImageThumbUrl,'',array('class'=>'admin_img'));    
+    echo CHtml::image($model->ImageThumbUrl,'',array('class'=>'admin_img'));    
     echo $model->text; ?>
     <div class="clear"></div>
 </div>
 
+<?php echo $this->renderPartial('_gallery',array('model'=>$model)); ?>

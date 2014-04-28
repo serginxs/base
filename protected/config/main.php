@@ -32,7 +32,7 @@ return array(
 	'import'=>array(
 		'application.models.*',
 		'application.components.*', 
-                'application.components.behaviors.*', 
+                 'application.components.behaviors.*', 
                 'application.components.zii.*',
                 'application.modules.configuration.components.*',
                 'application.extensions.*',
@@ -91,10 +91,10 @@ return array(
 		
 	   'urlManager'=>array(  
                         'class'=>'UrlManager',
-			'urlFormat'=>'path',
+		                  	'urlFormat'=>'path',
                         'showScriptName'=>false,
                         'urlSuffix' => '/',
-			'rules'=>array(                                                                                             
+		                  	'rules'=>array(                                                                                             
                                 array('sitemap/index', 'pattern'=>'sitemap.xml', 'urlSuffix'=>''),
                                 '/' => 'site/index',                            
                                 '<_c:(review|project)>/<alias:.+>' => '<_c>/view',

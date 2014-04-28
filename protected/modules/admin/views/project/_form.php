@@ -9,20 +9,20 @@
     <p class="help-block hint"><?php echo tt('Fields with <span class="required">*</span> are required.');?></p>
     <br/>
             <p>
-               <?php /*$this->widget('bootstrap.widgets.TbButton', array(
+               <?php $this->widget('bootstrap.widgets.TbButton', array(
                         'label'=>'SEO',
                         'icon'=>'icon-chevron-down icon-white',
                         'type'=>'info',
                         'htmlOptions'=>array('class'=>'metatag')
-                )); */?>
+                )); ?>
 
             </p>
 
             <?php echo $form->errorSummary($model); ?>
-            <!--<div class="tag-form" style="display: none; background: #d3d3d3; padding: 10px 15px;border-radius:5px;">           
-                    <em>Метатэги для страницы данной проекта</em>
+            <div class="tag-form" style="display: none; background: #d3d3d3; padding: 10px 15px;border-radius:5px;">           
+                    <em>Метатэги для страницы данного проекта</em>
                     <div class="row">
-                            <?php /*echo $form->labelEx($model,'title_tag'); ?>
+                            <?php echo $form->labelEx($model,'title_tag'); ?>
                             <?php echo $form->textField($model,'title_tag',array('size'=>60,'maxlength'=>128,'style'=>'width:500px')); ?>
                             <?php echo $form->error($model,'title_tag'); ?>
                     </div>
@@ -52,9 +52,9 @@
 	      <div class="row" >
                     <?php echo $form->labelEx($model,'img',array()); ?>         
                     <?php echo CHtml::activeFileField($model, 'img',array('class'=>'noblock','style'=>'width:225px;','rel'=>'popover', 'data-title' =>$model->getAttrTitle('img'), 'data-content' =>$model->getAttrDesc('img'))); ?>                    
-                    <?php echo $form->error($model,'img'); */?>
+                    <?php echo $form->error($model,'img'); ?>
          </div>
-          -->     
+            
             
         <div class="row">
 		<?php echo $form->labelEx($model,'title'); ?>
@@ -64,7 +64,7 @@
          
        
         
-        <?php /*
+        <?php 
          if(!$model->isNewRecord): ?>
          <div class="row">
                 <?php echo $form->labelEx($model, 'alias'); ?>
@@ -74,8 +74,8 @@
          <br/>
        <?php endif; ?>
          
-         <div class="row">
-		<?php 
+    <!--<div class="row">
+		<?php/* 
                 echo $form->labelEx($model,'short');                        
                  
                 $this->widget('ext.tinymce.TinyMce', array(
@@ -87,9 +87,9 @@
                         ),                       
                     ));                 
 		echo $form->error($model,'short');
-                ?>
-	      </div><br/> 
-         */?>
+              */  ?>
+	      </div><br/> -->
+        
         
         
 	

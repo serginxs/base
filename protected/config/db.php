@@ -7,8 +7,8 @@ return array(
   'username' => 'root',
   'password' => '',
   'tablePrefix' => 'tbl_',
-  'enableProfiling'=>true,
-  'enableParamLogging' => true,
+  //'enableProfiling'=>true,
+  //'enableParamLogging' => true,
   'charset' => 'utf8',
     )
 ?>

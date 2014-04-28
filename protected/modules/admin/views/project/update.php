@@ -11,7 +11,7 @@ $('.metatag').click(function(){
 ");
 ?>
 
-<h2>Редактирование проекта: ID <?php echo $model->id;?></h2>
+<h2>Редактирование проекта: <?php echo $model->title;?></h2>
 
     <?php $this->widget('bootstrap.widgets.TbMenu', array(
     'type'=>'pills', 
@@ -24,3 +24,7 @@ $('.metatag').click(function(){
     ))); ?>
 
 <?php echo $this->renderPartial('_form',array('model'=>$model)); ?>
+
+<?php echo $this->renderPartial('_gallery',array('model'=>$model)); ?>
+
+

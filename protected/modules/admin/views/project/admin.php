@@ -13,7 +13,7 @@ $this->pageTitle='Управление проектами';
 <?php Helpers::getFlash(); ?>
 
  <!--SEO-->
- <?php $this->renderPartial('_tag',array('page'=>$page)); ?>
+ <?php //$this->renderPartial('_tag',array('page'=>$page)); ?>
 
 
 <?php $this->widget('bootstrap.widgets.TbGridView',array(
